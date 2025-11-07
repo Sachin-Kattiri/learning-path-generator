@@ -15,7 +15,7 @@ This project is a Streamlit-based web application that generates personalized le
 
 - Python 3.10+
 - Google ai Studio API Key
-- Pipedream URLs for integrations (YouTube and either Drive or Notion)
+- Composio URLs for integrations (YouTube and either Drive or Notion)
 
 ## Installation
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Before running the application, you'll need to set up:
 
 1. Google API Key
-2. Pipedream URLs for:
+2. Composio URLs for:
    - YouTube (required)
    - Google Drive or Notion (based on your preference)
 
@@ -48,7 +48,7 @@ The application will be available at `http://localhost:8501` by default.
 
 ## Usage
 
-1. Enter your Google ai studio API key and Pipedream URLs in the sidebar
+1. Enter your Google ai studio API key and Composio URLs in the sidebar
 2. Select your preferred secondary tool (Drive or Notion)
 3. Enter your learning goal (e.g., "I want to learn python basics in 3 days")
 4. Click "Generate Learning Path" to create your personalized learning plan
